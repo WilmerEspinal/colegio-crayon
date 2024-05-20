@@ -36,7 +36,7 @@ const VirtualClassroom = () => {
               </ul>
             </nav>
           </section>
-          <section className="w-full h-screen bg-slate-300">
+          <section className="w-full bg-slate-300">
             <Outlet />
           </section>
         </section>
