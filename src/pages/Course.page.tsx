@@ -14,12 +14,13 @@ import RazMatematico from "../assets/images/logoCourses/raz-mate.png";
 import RobotComput from "../assets/images/logoCourses/rob-cumpu.png";
 import Trigonometria from "../assets/images/logoCourses/trigonometria.png";
 import Tutoria from "../assets/images/logoCourses/tutoria.png";
+import Title from "@/components/ui/title";
 
 const Course = () => {
     return (
         <section className="">
             <section className="w-full h-12 flex items-center justify-center mb-5">
-                <h2 className="text-2xl"> Mis cursos Período 2024 </h2>
+                <Title text="Mis Cursos"/>
             </section>
             <section className="p-3 flex justify-center flex-wrap gap-3">
                 <Card urlImage={Lenguaje} title="LENGUAJE" description="desarrolla habilidades para expresar y entender ideas claramente, mejorando la interacción verbal y escrita de manera efectiva." />
@@ -38,7 +39,6 @@ const Course = () => {
                 <Card urlImage={Geometria} title="GEOGRAFÍA" description="desarrolla habilidades para expresar y entender ideas claramente, mejorando la interacción verbal y escrita de manera efectiva." />
                 <Card urlImage={EdFisica} title="EDUC. FÍSICA" description="desarrolla habilidades para expresar y entender ideas claramente, mejorando la interacción verbal y escrita de manera efectiva." />
             </section>
-            <p>razonamiento matemático</p>
         </section>
     )
 }

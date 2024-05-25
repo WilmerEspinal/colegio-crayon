@@ -1,11 +1,11 @@
+import Title from "@/components/ui/title"
+
 const Schedule = () => {
     return (
         <section>
             <section className="w-full h-12 flex items-center justify-center mb-5">
-                <h2 className="text-2xl"> Horario de Clases Período 2024 </h2>
-
+                <Title text="Horario de Clases Período 2024"/>
             </section>
-
             <section className="w-full flex justify-center">
                 <div className="bg-white rounded px-9 pt-3 pb-9">
                     <table className="border border-orange-500">

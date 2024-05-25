@@ -29,10 +29,10 @@ const VirtualClassroom = () => {
           <section className="w-48 h-screen bg-white">
             <nav className="mt-1">
               <ul className="flex flex-col">
-                <Link className="text-xl transition ease-in-out delay-150  hover:-translate-y-1 hover:bg-indigo-500 duration-300 py-2" to="/horario">Horario</Link>
-                <Link className="text-xl transition ease-in-out delay-150  hover:-translate-y-1 hover:bg-indigo-500 duration-300 py-2" to="/cursos">Mi Curso</Link>
-                <Link className="text-xl transition ease-in-out delay-150  hover:-translate-y-1 hover:bg-indigo-500 duration-300 py-2" to="/examenes">Evaluaciones</Link>
-                <Link className="text-xl transition ease-in-out delay-150  hover:-translate-y-1 hover:bg-indigo-500 duration-300 py-2" to="/asistencia">Asistencia</Link>
+                <Link className="text-xl transition hover:-translate-y-1 hover:bg-indigo-500 py-2" to="/horario">Horario</Link>
+                <Link className="text-xl transition hover:-translate-y-1 hover:bg-indigo-500 py-2" to="/cursos">Mi Curso</Link>
+                <Link className="text-xl transition hover:-translate-y-1 hover:bg-indigo-500 py-2" to="/examenes">Evaluaciones</Link>
+                <Link className="text-xl transition hover:-translate-y-1 hover:bg-indigo-500 py-2" to="/asistencia">Asistencia</Link>
               </ul>
             </nav>
           </section>
