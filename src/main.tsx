@@ -5,6 +5,7 @@ import './index.css'
 import Login from './layout/Login.layout'
 import ResetPassword from './layout/Recover_Password.layout'
 import VirtualClassroom from './layout/Virtual_Classroom'
+import AttendanceRecord from './pages/AttendanceRecord.page'
 import Course from './pages/Course.page'
 import Schedule from './pages/Schedule.page'
 import Test from './pages/Test.page'
@@ -34,7 +35,7 @@ const router = createBrowserRouter([
       },
       {
         path: "/cursos/detalles",
-        element: ""
+        element: "hola"
       },
       {
         path: "/examenes",
@@ -42,7 +43,7 @@ const router = createBrowserRouter([
       },
       {
         path: "/asistencia",
-        element: ""
+        element: <AttendanceRecord />
       },
     ]
   }
