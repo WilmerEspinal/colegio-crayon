@@ -1,6 +1,7 @@
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
 import { IoNotifications } from "react-icons/io5";
 import LogoCrayon from "../../assets/images/logo-crayon.png";
+import UserMenu from "./user_menu/user_menu";
 
 
 
@@ -23,6 +24,7 @@ const Header = () => {
                 </div>
                 <IoNotifications className="text-2xl" />
             </div>
+            {/* <UserMenu/> */}
         </header>
     )
 }

@@ -1,6 +1,6 @@
 import CardTest from "@/components/ui/card_test";
 import Title from "@/components/ui/title";
-import Algebra from "../assets/images/logoCourses/algebra.png";
+import Algebra from "../../../assets/images/logoCourses/algebra.png";
 
 const Test = () => {
     return (

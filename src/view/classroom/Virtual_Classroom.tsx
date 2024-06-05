@@ -1,5 +1,5 @@
 import Header from "@/components/ui/header";
-import { navList } from "@/functions/componetsFunction";
+import { navList } from "@/view/classroom/nav_list";
 import { Link, Outlet } from "react-router-dom";
 
 const VirtualClassroom: React.FC = () => {
@@ -12,7 +12,6 @@ const VirtualClassroom: React.FC = () => {
             <section className="w-48 h-screen bg-white">
               <nav className="mt-1">
                 <ul className="flex flex-col">
-
                   {
                     navList.map((item, index) => (
                       <Link key={index} className="text-xl transition hover:-translate-y-1 hover:bg-indigo-500 py-2" to={item.LinkTo}>
@@ -20,15 +19,6 @@ const VirtualClassroom: React.FC = () => {
                       </Link>
                     ))
                   }
-                  {/* <Link className="text-xl transition hover:-translate-y-1 hover:bg-indigo-500 py-2" to="/cursos">
-                    Mi Curso
-                  </Link>
-                  <Link className="text-xl transition hover:-translate-y-1 hover:bg-indigo-500 py-2" to="/examenes">
-                    Evaluaciones
-                  </Link>
-                  <Link className="text-xl transition hover:-translate-y-1 hover:bg-indigo-500 py-2" to="/asistencia">
-                    Asistencia
-                  </Link> */}
                 </ul>
               </nav>
             </section>

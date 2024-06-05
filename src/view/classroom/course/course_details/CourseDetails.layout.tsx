@@ -12,9 +12,9 @@ const CourseDetails = () => {
                         <h3 className="text-2xl font-medium mb-2">Comunicación</h3>
                         <nav>
                             <ul className="flex flex-col">
-                                <NavBarLeft nameLink="Semestre I" namePath="/cursos/detalles/semestre-1" />
-                                <NavBarLeft nameLink="Semestre II" namePath="/cursos/detalles/semestre-2" />
-                                <NavBarLeft nameLink="Semestre III" namePath="/cursos/detalles/semestre-3" />
+                                <NavBarLeft nameLink="Semestre I" namePath="/crayon/cursos/detalles/semestre-1/" />
+                                <NavBarLeft nameLink="Semestre II" namePath="/crayon/cursos/detalles/semestre-2/" />
+                                <NavBarLeft nameLink="Semestre III" namePath="/crayon/cursos/detalles/semestre-3/" />
                             </ul>
                         </nav>
                     </section>

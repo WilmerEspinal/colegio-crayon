@@ -13,7 +13,7 @@ const Card = ({ urlImage, title, description }: Props) => {
         <div className="mb-3">
             <h6 className=" text-xl text-indigo-700 font-medium">{title}</h6>
             <p className="mb-3 leading-tight text-lg text-justify">{description}</p>
-            <Link to="/cursos/detalles" className={`${buttonVariants({ variant: "outline" })} bg-indigo-700 hover:bg-indigo-600 hover:text-white text-white w-28`}>Ver</Link>
+            <Link to="/crayon/cursos/detalles/semestre-1/" className={`${buttonVariants({ variant: "outline" })} bg-indigo-700 hover:bg-indigo-600 hover:text-white text-white w-28`}>Ver</Link>
         </div>
     </div>
 }

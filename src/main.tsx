@@ -2,18 +2,18 @@ import React from 'react'
 import ReactDOM from 'react-dom/client'
 import { createBrowserRouter, RouterProvider } from 'react-router-dom'
 import './index.css'
-import Login from './layout/Login/Login.layout'
-import ResetPassword from './layout/Recover_Password.layout'
-import VirtualClassroom from './layout/Virtual_Classroom'
-import AttendanceRecord from './pages/AttendanceRecord.page'
+import Login from './view/login/Login.layout'
+import ResetPassword from './view/login/recover_password/Recover_Password.layout'
+import VirtualClassroom from './view/classroom/Virtual_Classroom'
+import AttendanceRecord from './view/classroom/attendance/AttendanceRecord.page'
 
-import CourseDetails from './layout/CourseDetails.layout'
-import Course from './pages/Course/Course.page'
-import CourseResources1 from './pages/CourseResources-1.page'
-import Schedule from './pages/Schedule.page'
-import Test from './pages/Test.page'
+import CourseDetails from './view/classroom/course/course_details/CourseDetails.layout'
+import Course from './view/classroom/course/Course.page'
+import CourseResources1 from './view/classroom/course/course_details/semestre-1/CourseResources-1.page'
+import Schedule from './view/classroom/Schedule/Schedule.page'
+import Test from './view/classroom/test/Test.page'
 
-
+//Rrutas 
 const router = createBrowserRouter([
   {
     path: '/',
@@ -29,7 +29,7 @@ const router = createBrowserRouter([
     element: <VirtualClassroom />,
     children: [
       {
-        path: "/crayon",
+        path: "/crayon/",
         element: <Course />
       },
       {
@@ -51,11 +51,11 @@ const router = createBrowserRouter([
     ]
   },
   {
-    path: '/cursos/detalles',
+    path: '/crayon/cursos/detalles/',
     element: <CourseDetails />,
     children: [
       {
-        path: '/cursos/detalles/semestre-1',
+        path: '/crayon/cursos/detalles/semestre-1/',
         element: <CourseResources1 />
       },
     ]
